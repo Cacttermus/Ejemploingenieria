@@ -1,10 +1,10 @@
 import random
 import statistics
-datos=[random.randint(1,100) for _ in range(10)]
+datos=[random.randint(1,200) for _ in range(10)]
 media=statistics.mean(datos)
 mediana=statistics.median(datos)
-valorMayor=max(datos)
-valormenor=min(datos)
+valormayor=max(datos)
+valorMenor=min(datos)
 varianza=statistics.variance(datos)
 desviacionEstandar=statistics.stdev(datos)
 sumatotal=sum(datos)
